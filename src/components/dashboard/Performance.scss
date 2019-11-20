@@ -1,0 +1,48 @@
+.perfomance-card {
+  .btn-group-toggle{
+    .btn,.btn-primary:not(:disabled):not(.disabled).active {
+      background-color: #f5f5f5;
+      color: #909090;
+      border: solid 1px #c7c7c7;
+      padding-left:35px;
+      padding-right:35px;
+      &:active, &:hover, &:focus, .active{
+        background-color: #0f3d4d!important;
+        color: #fff;
+      }
+    }
+    .btn-day {
+      border-top-left-radius: 18px;
+      border-bottom-left-radius: 18px;
+    }
+    .btn-yr {
+      border-top-right-radius: 18px;
+      border-bottom-right-radius: 18px;
+    }
+  }
+  .circle-bar {
+    color: #6ba1b3;
+  }
+  h4 {
+    color: #5d5d5d;
+    margin-top:-10px;
+  }
+  .tracker-title {
+    line-height:2.3rem;
+  }
+  .table th {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.43;
+    height: 1.43;
+    vertical-align: middle;
+  }
+  td {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: right;
+    color: #6ba1b3;
+    padding-right: 30px;
+    font-size: 3rem;
+  }
+}

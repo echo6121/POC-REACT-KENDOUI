@@ -1,0 +1,21 @@
+.update-card {
+  .updates {
+    border-radius: 4px;
+    border-right: solid 1px #e3e3e3!important;
+    border-top: solid 1px #e3e3e3!important;
+    border-bottom: solid 1px #e3e3e3!important;
+  }
+  .alerts {
+    border-left: solid 9px #b30000!important;
+    background-color: #fff2f2;
+    color:#b30000
+  }
+  .notification {
+    border-left: solid 9px #336c80!important;
+    background-color: #edf7fa;
+  }
+  p {
+    color: #2e2e2e;
+    padding-left:28px;
+  }
+}

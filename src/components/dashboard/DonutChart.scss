@@ -1,0 +1,41 @@
+.MonthlySLATracker {
+  position:relative;
+  display:block;
+  clear:both;
+}
+
+.MonthlySLATracker h5 {
+  color: #2E2E2E;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.MonthlySLATracker .center-render {
+  height: 140px;
+  position:absolute;
+  left:38%;
+  top: 30%;
+}  
+
+.MonthlySLATracker .center-render h3 {
+  color: #6BA1B3;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}  
+
+.MonthlySLATracker .center-render {
+	color: #5D5D5D;
+	font-size: 18px;
+	font-weight: bold;
+  text-align: center;
+}
+
+.monthly-sla-tracker {
+	height: 48px;
+	width: 180px;
+	font-family: "Helvetica Neue";
+	line-height: 24px;
+}

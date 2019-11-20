@@ -1,0 +1,35 @@
+.pending-dates {
+  .date-card {
+    border-radius: 18px;
+    width:85px;
+    height:85px;
+    border: 1px solid #c7c7c7;
+    .date {
+      background-color:#fff;
+      height:60%;
+      color:#b30000;
+      padding-top:10px;
+    }
+    .month {
+      color:#fff;
+      background-color: #acacac;
+      height:100%;
+      padding-top:3px;
+      font-size:1.2rem;
+      font-weight: 600;
+    }
+  }
+  p {
+    margin:0;
+  }
+  .loss-title {
+    color: #2e2e2e;
+    font-size:1.5rem;
+  }
+  .address {
+    font-size:1.1rem;
+  }
+  .remain-dates {
+    color: #b30000;
+  }
+}

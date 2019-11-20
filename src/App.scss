@@ -1,0 +1,27 @@
+body {
+  background-color:#fafafa;
+  h5 {
+    color:#336c80;
+    font-size:1.5rem;
+  }
+
+  .read-more {
+    color: #336c80;
+    font-size:1.1rem;
+    font-weight:lighter;
+  }
+
+  a {
+    text-decoration: none;
+    color: #336c80;
+  } 
+
+  a:hover, a:focus {
+    color: #336c80;
+    text-decoration: none;
+  } 
+
+  .title {
+    color: #0f3d4d;
+  }
+}
